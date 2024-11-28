@@ -1,0 +1,55 @@
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.home-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.home-links a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.home-links a.login {
+    background-color: #4caf50;
+    color: white;
+}
+
+.home-links a.signup {
+    background-color: #2196f3;
+    color: white;
+}
+
+.home-links a:hover {
+    background-color: #e0e0e0;
+    color: #333;
+    border-color: #ccc;
+}
+
+.home-links a.login:hover {
+    background-color: #45a049;
+}
+
+.home-links a.signup:hover {
+    background-color: #0d8bf5;
+}
+
+.link , .logoutBut{
+    margin-right: 10px;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the button text */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor style on hover */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+}
